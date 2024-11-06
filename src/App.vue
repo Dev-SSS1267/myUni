@@ -7,8 +7,7 @@ import { useAuth } from '@/composables/useAuth'
 const currentDate = new Date()
 
 // 날짜와 시간을 문자열로 포맷팅 AM/PM 12시간 형식
-const hour = `${currentDate.getHours() % 12 || 12}`.padStart(2, '0')
-const AM_PM = currentDate.getHours() < 12 ? '오전' : '오후'
+const hour = `${currentDate.getHours() % 12 || 12}`
 const minute = `${currentDate.getMinutes()}`.padStart(2, '0')
 
 // 다크 모드 여부를 계산하는 computed 프로퍼티
@@ -57,7 +56,7 @@ export default {
               })
             "
           >
-            {{ AM_PM }} {{ hour }}:
+            {{ hour }}:
           </div>
           <div
             :class="
