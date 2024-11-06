@@ -30,7 +30,7 @@
             v-model="profile.customUrl"
             type="text"
             placeholder="예: my-unique-url"
-            class="border border-gray-300 rounded-lg\ flex-grow h-full"
+            class="border border-gray-300 rounded-lg flex-grow h-full"
             @input="handleInput"
           />
         </div>
