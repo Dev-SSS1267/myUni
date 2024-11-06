@@ -30,7 +30,7 @@
             v-model="profile.customUrl"
             type="text"
             placeholder="예: my-unique-url"
-            class="border border-gray-300 rounded-lg p-2 flex-grow h-full"
+            class="border border-gray-300 rounded-lg\ flex-grow h-full"
             @input="handleInput"
           />
         </div>
@@ -103,7 +103,7 @@
     <!-- 저장 버튼 -->
     <button
       @click="saveProfile"
-      class="mt-[250px] rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 py-2 w-[90%] text-lg text-white font-semibold"
+      class="mt-[200px] rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 py-2 w-[90%] text-lg text-white font-semibold"
     >
       저장
     </button>
