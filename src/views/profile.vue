@@ -16,7 +16,7 @@
           type="file"
           accept="image/*"
           @change="onFileChange"
-          class="text-gray-600 border border-gray-300 rounded-lg p-2 w-3/4"
+          class="text-gray-600 border border-gray-300 rounded-lg w-3/4"
         />
       </div>
 
@@ -103,7 +103,7 @@
     <!-- 저장 버튼 -->
     <button
       @click="saveProfile"
-      class="mt-[200px] rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 py-2 w-[90%] text-lg text-white font-semibold"
+      class="mt-[180px] rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 py-2 w-[90%] text-lg text-white font-semibold"
     >
       저장
     </button>
