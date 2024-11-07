@@ -45,34 +45,31 @@ export default {
     <div class="content scroll-container">
       <div class="sticky top-0 status-bar">
         <div
-          class="clock text-dark bg-[#f9f9f9] border-gray-200 dark:bg-gray-900 dark:border-gray-700"
+          class="clock text-dark dark:text-white backdrop-blur-3xl	"
         >
           <div
             :class="
-              ('hour',
-              {
-                'text-white': isDarkMode,
-                'text-black': !isDarkMode,
-              })
+              ('hour')
             "
           >
             {{ hour }}:
           </div>
           <div
             :class="
-              ('minute',
-              {
-                'text-white': isDarkMode,
-                'text-black': !isDarkMode,
-              })
+              ('minute')
             "
           >
             {{ minute }}
           </div>
         </div>
         <img
-          class="mr-2 bg-[#f9f9f9] border-gray-200 dark:bg-gray-900 dark:border-gray-700"
-          src="https://newjeans.kr/imgs/common/status-bar.png"
+          class="block dark:hidden mr-2 backdrop-blur-3xl"
+          src="https://cdn.lunaiz.com/my_uni_assets/statusbar-l.svg"
+          alt=""
+        />
+        <img
+          class="hidden dark:block mr-2 backdrop-blur-3xl"
+          src="https://cdn.lunaiz.com/my_uni_assets/statusbar-d.svg"
           alt=""
         />
       </div>
