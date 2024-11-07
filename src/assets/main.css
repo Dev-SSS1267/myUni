@@ -55,8 +55,8 @@ html {
 .frame {
   width: 430px; /* 이미지 원본 크기에 맞춤 */
   height: 894.8px;
-  /* background-image: url('https://cdn.lunaiz.com/my_uni_assets/mockup.png'); */
-  background-image: url('https://newjeans.kr/imgs/common/mockup.png');
+  background-image: url('https://cdn.lunaiz.com/my_uni_assets/mockup.png');
+  /* background-image: url('https://newjeans.kr/imgs/common/mockup.png'); */
   background-size: contain; /* 이미지가 잘리지 않도록 contain으로 설정 */
   background-repeat: no-repeat;
   background-position: center;
@@ -110,7 +110,7 @@ html {
 .status-bar {
   justify-content: space-between;
   margin-bottom: 16px;
-  padding-left: 20px;
+  padding-left: 22.5px;
 }
 
 .status-bar,
@@ -121,14 +121,13 @@ html {
 
 .status-bar .clock {
   justify-content: center;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .status-bar img {
-  display: block;
   flex: 0 0 72px;
-  width: 72px;
+  width: 80px;
 }
 
 .status-bar.dark .clock {
